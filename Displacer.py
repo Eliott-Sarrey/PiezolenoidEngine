@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.integrate import solve_ivp
-from scipy.misc import derivative
+import scipy.integrate
+import scipy.misc
 #import tikzplotlib
-import DataFile.py
+import DataFile
 
 om = np.sqrt(4*k*m - c**2)/(2*m)
 T = 2*pi/om

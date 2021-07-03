@@ -1,3 +1,5 @@
+import numpy as np
+
 pi = np.pi
 Rm = 10e-2
 Rs = 12e-2
